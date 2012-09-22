@@ -1,0 +1,15 @@
+package uk.co.iankent.Asserted.Web.Annotations.Locators;
+
+import java.lang.annotation.*;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Ian
+ * Date: 16/09/12
+ * Time: 19:15
+ * To change this template use File | Settings | File Templates.
+ */
+@Inherited @Target(ElementType.ANNOTATION_TYPE) @Retention(RetentionPolicy.RUNTIME)
+public @interface URL {
+    String value();
+}
